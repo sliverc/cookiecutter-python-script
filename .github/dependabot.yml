@@ -1,6 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "pip"
-    directory: "/" # Location of package manifests
+    directory: "/{{cookiecutter.repo_name}}"
     schedule:
       interval: "weekly"
