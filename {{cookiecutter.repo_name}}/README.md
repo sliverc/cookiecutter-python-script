@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Execute
 
-You can execute the `{{cookiecutter.script_name }}.py`like the following:
+You can execute the `{{cookiecutter.script_name }}.py` like the following:
 
 ```bash
 python {{cookiecutter.script_name }}.py
