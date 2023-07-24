@@ -12,6 +12,13 @@ Create a [virtualenv](https://packaging.python.org/en/latest/guides/installing-u
 pip install -r requirements.txt
 ```
 
+## Configuration
+
+For configuration environment variables are used. Take a look at the file `.env-sample` to see what environment variables can be set.
+
+You can set those variables either in your system directly. Optionally based on `.env-sample` you can also create a file `.env` and adjust it
+accordingly.
+
 ## Execute
 
 You can execute the `{{cookiecutter.script_name }}.py` like the following:

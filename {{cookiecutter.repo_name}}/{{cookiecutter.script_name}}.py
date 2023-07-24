@@ -3,6 +3,10 @@ import logging
 import sys
 from argparse import ArgumentParser
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 def init_argparse():
     parser = ArgumentParser(

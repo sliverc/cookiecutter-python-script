@@ -37,3 +37,7 @@ jobs:
       run: |
         pre-commit validate-config
         pre-commit run --all-files --verbose
+    - name: Execute script
+      working-directory: ./ci_project
+      run: |
+        python ci_project.py --log-level DEBUG
