@@ -25,13 +25,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install cookiecutter
-    - name: Build and lint cookiecutter
+    - name: Build cookiecutter
       run: |
         cookiecutter --no-input . project_name=ci_project
-    - name: Install cookiecutter template dependencies
-      working-directory: ./ci_project
-      run: |
-        python -m pip install -r dev-requirements.txt
     - name: Install cookiecutter template dependencies
       working-directory: ./ci_project
       run: |
@@ -40,4 +36,4 @@ jobs:
       working-directory: ./ci_project
       run: |
         pre-commit validate-config
-        pre-commit run --all-files
+        pre-commit run --all-files --verbose
