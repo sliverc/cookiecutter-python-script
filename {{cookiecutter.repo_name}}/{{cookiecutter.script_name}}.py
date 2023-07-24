@@ -35,6 +35,13 @@ def main():
 
     configure_logging(args.log_level)
 
+    try:
+        # add script logic here
+        pass
+    except Exception:
+        logging.exception("A unhandled error occurred. Exiting.")
+        sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
