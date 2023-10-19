@@ -2,10 +2,13 @@
 import logging
 import sys
 from argparse import ArgumentParser
+from pathlib import Path
 
 from dotenv import load_dotenv
 
 load_dotenv()
+
+BASE_DIR = Path(__file__).resolve().parent
 
 
 def init_argparse():
