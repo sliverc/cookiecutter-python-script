@@ -27,6 +27,12 @@ You can execute the `{{cookiecutter.script_name }}.py` like the following:
 python {{cookiecutter.script_name }}.py
 ```
 
+To get a list of all available options run the following:
+
+```bash
+python {{cookiecutter.script_name }}.py --help
+```
+
 ## Development
 
 ### Setup environment
