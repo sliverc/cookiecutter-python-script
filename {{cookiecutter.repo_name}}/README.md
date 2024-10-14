@@ -4,7 +4,7 @@
 
 ## Installation
 
-You need at least Python 3.8 or higher.
+You need at least Python 3.9 or higher.
 
 Create a [virtualenv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) first and then install dependencies with pip:
 
