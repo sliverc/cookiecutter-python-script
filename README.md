@@ -4,7 +4,7 @@ This cookie cutter provides a project with best practices for simple Python scri
 
 ## Requirements
 
-* Python 3.9+
+* Python 3.10+
 * Cookiecutter 1.7.3+
 
 ## Usage
