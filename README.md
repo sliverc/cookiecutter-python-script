@@ -17,7 +17,7 @@ cookiecutter https://github.com/sliverc/cookiecutter-python-script.git
 # Included in this template
 
 * [Black](https://github.com/ambv/black)
-* [Flake8](http://flake8.pycqa.org/en/latest/)
+* [Flake8](http://flake8.pycqa.org/en/latest/) and important plugins
 * [isort](https://pypi.python.org/pypi/isort)
 * [pre-commit](https://pre-commit.com/)
 * [pdb++](https://github.com/pdbpp/pdbpp)
