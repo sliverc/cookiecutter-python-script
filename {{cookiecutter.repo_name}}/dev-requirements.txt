@@ -1,6 +1,6 @@
 -r requirements.txt
 black==26.5.1
-flake8==7.3.0
+flake8==7.4.1
 flake8-datetimez==26.8.1
 flake8-debugger==4.1.2
 isort==9.0.1
